@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    margin: auto 20px;
+    font-size: 20px;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, black,black);
+    padding: 0 !important;
+}
+.navbar-brand img {
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.navbar-nav li {
+    padding: 0 10px; 
+}
+.navbar-nav a {
+    color: #4e4d4d !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars {
+    color: #4e4d4d;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*banner section*/
+#banner{
+    background-image: linear-gradient(to right, black,black);
+    color: #4e4d4d;
+    padding-top: 5%;
+}
+.promo-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.btn {
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #4e4d4d;
+    text-decoration: none;
+}
+.bottom-img {
+    width: 100%;
+    border: none;
+}
+#services {
+    padding: 80px 0;
+}
+.services-img {
+    width: 100px;
+    margin-top: 20px;
+}
+.services {
+    padding: 20px;
+}
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before {
+    content: '';
+    background: linear-gradient(to right, rgb(23, 23, 23),rgb(106, 105, 105));
+    height: 5px;
+    width: 250px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.title::after {
+    content: '';
+    background: black;
+    height: 5px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.button {
+    height: 40px;
+    width: 130px;
+    background-image: linear-gradient(to right, black,rgb(80, 79, 79));
+    color: rgb(97, 96, 96);
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    margin: 40px auto;
+    transition: 0.3s ease-in-out;
+}
+.button:hover {
+    opacity: 0.8;
+}
+/*ABOUT US*/
+#about-us {
+    background: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#list {
+    color: rgb(61, 61, 61);
+}
+.about-title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+#about-us ul li {
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+#nike-logo-bottom {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#testimonials {
+    background: linear-gradient(to right, rgb(250, 249, 249) ,rgb(197, 196, 196),rgb(227, 227, 227));
+    margin: 1px 0;
+}
+.testimonials {
+    border-left: 4px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.testimonials img {
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+/*social media section*/
+#social-media {
+    background: white;
+    padding: 100px 0;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons i {
+    width: 30px;
+    transition: 0.5s;
+}
+.social-icons a:hover i {
+    transform: translateY(-10px);
+}
+#footer {
+    background: black;
+    color: #fff;
+}
+.wave {
+    border-radius: 50ch;
+}
+.footer-img {
+    width: 100%;
+}
+.footer-box {
+    padding: 20px;
+}
+.footer-box {
+    color:#4e4d4d;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-text {
+    color:#4e4d4d;
+    margin-left: 70px;
+    margin-top: -40px;
+    font-weight: 20;
+    font-size: 20px;
+}
+.contact {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+}
+.copyright {
+    color: rgb(199, 198, 198);
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+@media (max-width: 28.75em) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.change {
+    width: 50px;
+    height: 100px;
+    object-fit: fit;
+}
